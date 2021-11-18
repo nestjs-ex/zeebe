@@ -5,10 +5,14 @@ lib/
 coverage/
 
 # config
+.commitlintrc.json
+.eslintignore
+.eslintrc.js
 tsconfig.json
 tslint.json
 .prettierignore
 .prettierrc
+.release-it.json
 .travis.yml
 docker-compose.yml
 jest.config.js
