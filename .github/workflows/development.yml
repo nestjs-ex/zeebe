@@ -31,6 +31,12 @@ jobs:
     name: Test stan strategy
     runs-on: ubuntu-latest
 
+    services:
+      zeebe:
+        image: camunda/zeebe:latest
+        ports:
+          - 26500:26500
+
     steps:
       - uses: actions/checkout@v2
 
