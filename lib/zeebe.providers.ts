@@ -6,11 +6,19 @@ import {
   getZbClientToken,
 } from './utils';
 
-function buildZbClient(options: ZeebeModuleOptions): ZBClient {
+async function buildZbClient(options: ZeebeModuleOptions): Promise<ZBClient> {
   options.onReady = () => console.log(`Connected!`);
   options.onConnectionError = () => console.log(`Disconnected!`);
 
-  const zbc = new ZBClient(options);
+  let zbc: ZBClient;
+
+  if (options.gatewayAddress) {
+    zbc = new ZBClient(options.gatewayAddress, options);
+  } else {
+    zbc = new ZBClient(options);
+  }
+
+  await zbc.topology();
 
   (zbc as unknown as OnApplicationShutdown).onApplicationShutdown = async function (
     this: ZBClient,

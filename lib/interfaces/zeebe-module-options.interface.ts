@@ -6,6 +6,7 @@ import {
 import { ZBClientOptions } from 'zeebe-node';
 
 export interface ZeebeModuleOptions extends ZBClientOptions {
+  gatewayAddress?: string;
 }
 
 export interface ZeebeOptionsFactory {
