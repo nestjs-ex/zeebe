@@ -1,6 +1,6 @@
 {
   "name": "@nestjs-ex/zeebe",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "Zeebe module for Nest JS",
   "homepage": "https://github.com/nestjs-ex/zeebe",
   "bugs": {
