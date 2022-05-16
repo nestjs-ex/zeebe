@@ -47,9 +47,9 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "16.3.0",
-    "@commitlint/config-angular": "16.3.0",
-    "@commitlint/config-conventional": "16.2.4",
+    "@commitlint/cli": "17.0.0",
+    "@commitlint/config-angular": "17.0.0",
+    "@commitlint/config-conventional": "17.0.0",
     "@nestjs/common": "8.4.5",
     "@nestjs/core": "8.4.5",
     "@nestjs/platform-express": "8.4.5",
