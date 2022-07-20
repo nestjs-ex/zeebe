@@ -50,10 +50,10 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-angular": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
-    "@nestjs/common": "8.4.7",
-    "@nestjs/core": "8.4.7",
-    "@nestjs/platform-express": "8.4.7",
-    "@nestjs/testing": "8.4.7",
+    "@nestjs/common": "9.0.5",
+    "@nestjs/core": "9.0.5",
+    "@nestjs/platform-express": "9.0.5",
+    "@nestjs/testing": "9.0.5",
     "@types/jest": "28.1.6",
     "@types/node": "16.11.45",
     "@types/reflect-metadata": "0.1.0",
@@ -79,8 +79,8 @@
     "zeebe-node": "1.4.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "^6.10.11 || ^7.0.0 || ^8.0.0",
-    "@nestjs/core": "^6.10.11 || ^7.0.0 || ^8.0.0",
+    "@nestjs/common": "^6.10.11 || ^7.0.0 || ^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^6.10.11 || ^7.0.0 || ^8.0.0 || ^9.0.0",
     "zeebe-node": "^1.0.0"
   }
 }
