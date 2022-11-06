@@ -70,7 +70,7 @@
     "release-it": "15.5.0",
     "rimraf": "3.0.2",
     "rxjs": "7.5.7",
-    "sort-package-json": "2.0.0",
+    "sort-package-json": "2.1.0",
     "ts-jest": "29.0.3",
     "ts-node": "10.9.1",
     "tsconfig-paths": "4.1.0",
